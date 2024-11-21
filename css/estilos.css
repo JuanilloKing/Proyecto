@@ -1,26 +1,51 @@
-*{
-    margin 0%
+* {
+    margin: 0%;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #93BDF3;
-    color: #291CE7;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
 }
 
 header h1 {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand';
+    font-style: italic;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     color: #291CE7;
+    position: relative;                
+}
+
+header img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+header button {
+    width: 180px;
+    height: 50px;    
+    background-color: #ffffff;
+    color: #291CE7;
+    font-family: 'IBM Plex Mono' monospace;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: #291CE7;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-right: 10%;
+    position: relative;
 }
 
 #logo {
-    width: 100px;
+    width: 175px;
     height: auto;
     margin-right: 0%;
 }
-
 
 hr {
     height:0.01pc;
