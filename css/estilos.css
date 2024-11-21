@@ -4,7 +4,23 @@
 
 header {
     background-color: #93BDF3;
+    color: #291CE7;
+    padding: 20px;
 }
+
+header h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: #291CE7;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    margin-right: 0%;
+}
+
 
 hr {
     height:0.01pc;
