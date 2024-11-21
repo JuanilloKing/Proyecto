@@ -5,3 +5,17 @@
 header {
     background-color: #93BDF3;
 }
+
+hr {
+    height:0.01pc;
+    background-color: #000;
+    margin: 0%;
+}
+
+footer {
+    font-family: 'IBM Plex Mono' monospace;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+    background-color: #D9D9D9;
+}
