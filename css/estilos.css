@@ -1,3 +1,7 @@
+*{
+    width: 100%;
+}
+
 header {
     background-color: #93BDF3;
 }
