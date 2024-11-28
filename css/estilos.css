@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+main{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body{
+  align-items: center;
+  text-align: center;
+}
+
 header {
   background-color: #93BDF3;
   padding: 10px 20px;
@@ -105,9 +115,8 @@ footer {
 #fotoPrincipal{
     width: 1480px;
     height: 831.05px;
-    margin-left: 10%;
+    margin-block: 50px;
   }
-
 
 .titulos{
   font-size: 46px;
@@ -199,8 +208,7 @@ footer {
 }
 
 .izquierdaGal {
-  flex: 1; 
-  margin-left: 5%;
+  flex: 1;
 }
 
 .derechaGal {
