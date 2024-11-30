@@ -232,3 +232,30 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+
+#mapaHotel{
+  width: 70%;
+  height: auto;
+}
+
+.tipoServicios{
+  width: 21%;
+  text-align: center;
+  background-color: #93BDF3;
+  border: 1px solid #000;
+  margin-left: 8%;
+}
+
+.tipoServicios hr {
+  border: 1px solid #000;
+}
+
+div ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.emoticono {
+  width: 10%;
+  height: auto;
+}
