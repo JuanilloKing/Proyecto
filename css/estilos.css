@@ -259,3 +259,110 @@ div ul {
   width: 10%;
   height: auto;
 }
+/*Reservas.html*/
+
+.volver {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  font-size:120px; 
+  color: #FFFFFF; 
+  transition: color 0.3s, transform 0.2s; 
+}
+
+.formulario-reservas {
+  font-family: 'IBM Plex Mono';
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.formulario-reservas hr {
+  height:0.01pc;
+  background-color: #000;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.fecha-entrada{
+  background-color: #93BDF3;
+  padding: 15px;
+  display: inline-block;
+  width: 350px;
+  height: 140px;
+  margin: 50px;
+  text-align: center;
+}
+
+.fecha-salida{  
+  background-color: #93BDF3;
+  padding: 15px;
+  display: inline-block;
+  width: 350px;
+  height: 140px;
+  margin: 50px;
+  text-align: center;
+}
+
+.personas{
+  background-color: #93BDF3;
+  padding: 15px;
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
+.habitaciones{
+  background-color: #93BDF3;
+  padding: 15px;
+  display: inline-block;
+  width: 380px;
+  height: 50px;
+  margin: 50px;
+  text-align: center;
+}
+
+.precio-total{
+  background-color: #93BDF3;
+  padding: 15px;
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.letraBotonesReservas {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  background-color: #EEB600;
+  font-weight: 100;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  margin-left: 95%;
+}
+
+.lineas-calculo {
+  border-top: 2px solid black; 
+  margin: 20px 0; 
+  width: 33%;  
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chat {
+  color:#93BDF3;
+  font-size: 50px;
+  margin-right: 100%;
+  display: flex;
+  justify-content: center;
+
+}
