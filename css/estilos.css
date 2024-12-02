@@ -208,20 +208,43 @@ footer {
   padding: 12px 16px;
 }
 
-.izquierdaGal {
-  flex: 1;
-  display: block;
+#galeriaFotos {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
 }
+
+
+.contenedor {
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px;
+}
+
+.izquierdaGal {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+  width: 45%; 
+}
+
 
 .derechaGal {
-  flex: 1;
+  width: 50%; 
+  display: flex;
+  justify-content: center;
 }
 
+
 .izquierdaGal img {
-  margin-bottom: 60px; 
-  max-width: 100%;
-  height: auto; 
-  margin: 20px, 0, 0, 0;
+  width: 100%; 
+  height: auto;
+}
+
+
+#galGrande {
+  width: 100%; 
+  height: auto;
 }
 
 button {
@@ -233,21 +256,52 @@ button:hover {
   transform: scale(1.1);
 }
 
-#mapaHotel{
-  width: 90%;
-  height: auto;
+.mapaHotel {
+  text-align: center; 
+  margin: 40px 0; 
 }
 
+.mapaHotel h1 {
+  font-size: 35px;
+  margin-bottom: 20px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.flecha {
+  width: 50px;
+  height: auto; 
+}
+
+#mapaHotel {
+  width: 90%;
+  max-width: 1200px; 
+  height: auto; 
+  margin-top: 20px; 
+}
+
+
 .tipoServicios{
-  width: 21%;
+  font-size: 36px;
+  width: 35%;
   text-align: center;
   background-color: #93BDF3;
   border: 1px solid #000;
-  margin-left: 8%;
+  margin-left: 2%;
+  padding-bottom: 2%;
 }
 
 .tipoServicios hr {
   border: 1px solid #000;
+}
+
+.emoticono {
+  vertical-align: middle; 
+  margin-left: 5px; 
+  width: 32px; 
+  height: auto; 
 }
 
 div ul {
@@ -372,7 +426,7 @@ h2.titulos{
   background-color: #93BDF3;
   padding: 15px;
   display: inline-block;
-  width: 380px;
+  width: 400px;
   height: 50px;
   margin: 50px;
   text-align: center;
@@ -391,13 +445,12 @@ h2.titulos{
 
 .letraBotonesReservas {
   font-family: 'Patrick Hand', cursive;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #EEB600;
-  font-weight: 100;
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  padding: 12px;
+  padding: 20px;
   margin-left: 95%;
 }
 
@@ -413,7 +466,7 @@ h2.titulos{
 .chat {
   color:#93BDF3;
   font-size: 50px;
-  margin-right: 100%;
+  margin-right: 95%;
   display: flex;
   justify-content: center;
   position: relative;
