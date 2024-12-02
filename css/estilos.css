@@ -259,7 +259,15 @@ div ul {
   width: 10%;
   height: auto;
 }
+
 /*Reservas.html*/
+
+.header-reservar {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  position: relative;
+  height: 175px;
+} 
 
 .volver {
   position: absolute;
@@ -267,7 +275,7 @@ div ul {
   right: 10px;
   text-decoration: none;
   font-size:120px; 
-  color: #FFFFFF; 
+  color: #93BDF3; 
   transition: color 0.3s, transform 0.2s; 
 }
 
@@ -364,5 +372,6 @@ div ul {
   margin-right: 100%;
   display: flex;
   justify-content: center;
-
+  position: relative;
+  bottom: 25px;
 }
